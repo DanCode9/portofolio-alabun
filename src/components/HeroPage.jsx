@@ -14,7 +14,7 @@ const HeroPage = () => {
             alt="Avatar"
           />
           <p className="text-emerald-300 text-5xl md:text-2xl text-center md:text-left">
-            Bonjour et bienvenue sur mon portofolio{" "}
+            Bonjour et bienvenue sur mon portfolio{" "}
           </p>
           <p className="md:text-5xl text-3xl text-center md:text-left text-neutral-300">
             Je suis un étudiant passionné par le développement web et de
