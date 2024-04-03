@@ -31,13 +31,18 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="hover:text-emerald-300">
-          <Link to={"/contact"} onClick={closeMenu}>
-            Contact
+          <Link to={"/stages"} onClick={closeMenu}>
+            Stages réalisés
           </Link>
         </li>
         <li className="hover:text-emerald-300">
           <Link to={"/veille"} onClick={closeMenu}>
             Veille Informatique
+          </Link>
+        </li>
+        <li className="hover:text-emerald-300">
+          <Link to={"/contact"} onClick={closeMenu}>
+            Contact
           </Link>
         </li>
       </ul>

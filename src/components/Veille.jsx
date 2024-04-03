@@ -1,10 +1,12 @@
 import React from "react";
+import FluxRSS from "./FluxRSS";
+import newsData from "../fluxRss/Flux.json";
 
 const Veille = () => {
   return (
     <div className="bg-neutral-900 p-5 sm:p-10">
       <h1 className="text-2xl md:text-4xl font-bold text-center text-emerald-300 mb-6">
-        Veille Informatique : React.js
+        Veille Informationnelle : React.js
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -61,6 +63,13 @@ function MonComposant() {
 export default MonComposant;
           `}
         </pre>
+      </div>
+
+      <div className="Actualites">
+        <h2 className="text-3xl font-bold mb-4 text-emerald-300 ">
+          Dernières actualités sur ReactJS
+        </h2>
+        <FluxRSS news={newsData} />
       </div>
 
       <div className="mt-8">

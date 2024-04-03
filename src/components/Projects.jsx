@@ -18,7 +18,9 @@ const Projects = () => {
             <img className="w-[100%]" src={CartApp} alt="Shoes" />
           </figure>
           <div className="card-body p-10">
-            <h2 className="card-title">React Shoppin App</h2>
+            <a href="/cart-app" className="card-title text-xl font-bold">
+              React Shoppin App
+            </a>
             <p>Application shopping avec un panier utilisant ReactJs</p>
           </div>
         </div>
@@ -27,7 +29,9 @@ const Projects = () => {
             <img src={Films} alt="Shoes" />
           </figure>
           <div className="card-body p-10">
-            <h2 className="card-title">Application Films</h2>
+            <a href="/movie-app" className="card-title text-xl font-bold">
+              Application Films
+            </a>
             <p>Application films utilisant ReactJs et le API de TheMovieDB</p>
           </div>
         </div>
@@ -36,7 +40,9 @@ const Projects = () => {
             <img src={Pendu} alt="Shoes" />
           </figure>
           <div className="card-body p-10">
-            <h2 className="card-title">Gestion Restaurant</h2>
+            <a href="resto-app" className="card-title text-xl font-bold">
+              Gestion Restaurant
+            </a>
             <p>
               Application de gestion des stocks pour un restaurant en Java et
               JavaFX

@@ -41,6 +41,13 @@ const HeroPage = () => {
               ]}
             />
           </p>
+          <a
+            href="/assets/CV.pdf"
+            download="CV.pdf"
+            className="border-2 border-emerald-600 p-3 w-fit rounded-2xl hover:border-emerald-500 hover:bg-emerald-900"
+          >
+            Télécharger mon CV
+          </a>
         </div>
         <img
           className="w-full hidden md:block sm:w-[300px] h-auto rounded-xl mt-5 sm:mt-0"
