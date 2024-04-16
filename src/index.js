@@ -9,6 +9,8 @@ import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx";
 import Veille from "./components/Veille.jsx";
 import Stages from "./components/Stages.jsx";
+import Stage1 from "./components/Stage1.jsx";
+import Stage2 from "./components/Stage2.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>
@@ -22,6 +24,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Route path="/cart-app" element={<Stages />} />
       <Route path="/movie-app" element={<Stages />} />
       <Route path="/resto-app" element={<Stages />} />
+      <Route path="/stage1" element={<Stage1 />} />
+      <Route path="/stage2" element={<Stage2 />} />
     </Routes>
     <Footer />
   </Router>

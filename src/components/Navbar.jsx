@@ -37,7 +37,7 @@ const Navbar = () => {
         </li>
         <li className="hover:text-emerald-300">
           <Link to={"/veille"} onClick={closeMenu}>
-            Veille Informatique
+            Veille Informationelle
           </Link>
         </li>
         <li className="hover:text-emerald-300">
