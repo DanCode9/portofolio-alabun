@@ -11,6 +11,9 @@ import Veille from "./components/Veille.jsx";
 import Stages from "./components/Stages.jsx";
 import Stage1 from "./components/Stage1.jsx";
 import Stage2 from "./components/Stage2.jsx";
+import CartApp from "./components/CartApp.jsx";
+import MovieDB from "./components/MovieDB.jsx";
+import Resto from "./components/Resto.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>
@@ -21,9 +24,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Route path="/contact" element={<Contact />} />
       <Route path="/veille" element={<Veille />} />
       <Route path="/stages" element={<Stages />} />
-      <Route path="/cart-app" element={<Stages />} />
-      <Route path="/movie-app" element={<Stages />} />
-      <Route path="/resto-app" element={<Stages />} />
+      <Route path="/page-projet-cart" element={<CartApp />} />
+      <Route path="/page-projet-films" element={<MovieDB />} />
+      <Route path="/page-projet-resto" element={<Resto />} />
       <Route path="/stage1" element={<Stage1 />} />
       <Route path="/stage2" element={<Stage2 />} />
     </Routes>

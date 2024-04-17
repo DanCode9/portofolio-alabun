@@ -13,42 +13,53 @@ const Projects = () => {
         Certains de mes projets
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 place-items-center ">
-        <div className="bg-slate-200 border border-white card w-96 bg-base-100 ">
+        {/* PROJET 1 */}
+        <a
+          href="/page-projet-cart"
+          className="bg-slate-200 border projet1 border-white  w-96 bg-base-100 "
+        >
           <figure>
             <img className="w-[100%]" src={CartApp} alt="Shoes" />
           </figure>
           <div className="card-body p-10">
-            <a href="/cart-app" className="card-title text-xl font-bold">
+            <h1
+              href="/page-projet-cart"
+              className="card-title text-xl font-bold"
+            >
               React Shoppin App
-            </a>
+            </h1>
             <p>Application shopping avec un panier utilisant ReactJs</p>
           </div>
-        </div>
-        <div className="bg-slate-200 border border-white card w-96 bg-base-100 ">
+        </a>
+        {/* PROJET 2 */}
+        <a
+          href="/page-projet-films"
+          className="bg-slate-200 border projet2 border-white card w-96 bg-base-100 "
+        >
           <figure>
             <img src={Films} alt="Shoes" />
           </figure>
           <div className="card-body p-10">
-            <a href="/movie-app" className="card-title text-xl font-bold">
-              Application Films
-            </a>
+            <h1 className="card-title text-xl font-bold">Application Films</h1>
             <p>Application films utilisant ReactJs et le API de TheMovieDB</p>
           </div>
-        </div>
-        <div className="bg-slate-200 border border-white card w-96 bg-base-100 ">
+        </a>
+        {/* PROJET 3 */}
+        <a
+          href="/page-projet-resto"
+          className="bg-slate-200 border projet3 border-white card w-96 bg-base-100 "
+        >
           <figure>
             <img src={Pendu} alt="Shoes" />
           </figure>
           <div className="card-body p-10">
-            <a href="resto-app" className="card-title text-xl font-bold">
-              Gestion Restaurant
-            </a>
+            <h1 className="card-title text-xl font-bold">Gestion Restaurant</h1>
             <p>
               Application de gestion des stocks pour un restaurant en Java et
               JavaFX
             </p>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   );
