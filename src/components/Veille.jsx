@@ -1,7 +1,6 @@
 import React from "react";
 import FluxRSS from "./FluxRSS";
 import newsData from "../fluxRss/Flux.json";
-
 const Veille = () => {
   return (
     <div className="bg-neutral-900 p-5 sm:p-10">

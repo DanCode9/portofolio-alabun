@@ -1,6 +1,8 @@
 import CartApp from "../images/cart.png";
 import Est from "../img-stages/est.jpg";
 import Tele from "../img-stages/teletravail.png";
+import PdfViewer from "./PdfViewer";
+
 const Stages = () => {
   return (
     <div className="p-8">
@@ -94,6 +96,9 @@ const Stages = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div className="h-screen mt-[40px]">
+        <PdfViewer />
       </div>
     </div>
   );
