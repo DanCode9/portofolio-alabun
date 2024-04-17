@@ -2,6 +2,7 @@ import React from "react";
 import Pendu from "../images/jeu.png";
 import CartApp from "../images/cart.png";
 import Films from "../images/mov.jpg";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -14,8 +15,8 @@ const Projects = () => {
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 place-items-center ">
         {/* PROJET 1 */}
-        <a
-          href="/page-projet-cart"
+        <Link
+          to={"/page-projet-cart"}
           className="bg-slate-200 border projet1 border-white  w-96 bg-base-100 "
         >
           <figure>
@@ -30,10 +31,10 @@ const Projects = () => {
             </h1>
             <p>Application shopping avec un panier utilisant ReactJs</p>
           </div>
-        </a>
+        </Link>
         {/* PROJET 2 */}
-        <a
-          href="/page-projet-films"
+        <Link
+          to={"/page-projet-films"}
           className="bg-slate-200 border projet2 border-white card w-96 bg-base-100 "
         >
           <figure>
@@ -43,10 +44,10 @@ const Projects = () => {
             <h1 className="card-title text-xl font-bold">Application Films</h1>
             <p>Application films utilisant ReactJs et le API de TheMovieDB</p>
           </div>
-        </a>
+        </Link>
         {/* PROJET 3 */}
-        <a
-          href="/page-projet-resto"
+        <Link
+          to={"/page-projet-resto"}
           className="bg-slate-200 border projet3 border-white card w-96 bg-base-100 "
         >
           <figure>
@@ -59,7 +60,7 @@ const Projects = () => {
               JavaFX
             </p>
           </div>
-        </a>
+        </Link>
       </div>
     </div>
   );

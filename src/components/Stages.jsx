@@ -2,7 +2,7 @@ import CartApp from "../images/cart.png";
 import Est from "../img-stages/est.jpg";
 import Tele from "../img-stages/teletravail.png";
 import PdfViewer from "./PdfViewer";
-
+import { Link } from "react-router-dom";
 const Stages = () => {
   return (
     <div className="p-8">
@@ -52,12 +52,12 @@ const Stages = () => {
                   WIN10 qui se trouve sur le serveur de l'entreprise
                 </li>
               </ol>
-              <a
-                href="/stage1"
+              <Link
+                to={"/stage1"}
                 className="border-2 border-emerald-600 p-3 w-fit rounded-2xl hover:border-emerald-500 hover:bg-emerald-900"
               >
                 PHOTOS
-              </a>
+              </Link>
             </p>
           </div>
         </div>
@@ -87,12 +87,12 @@ const Stages = () => {
                 <li>2. Savoir repartir des tâches et optimiser le temps</li>
                 <li>3. Amélioration en compétences informatiques</li>
               </ol>
-              <a
-                href="/stage2"
+              <Link
+                to={"/stage2"}
                 className="border-2 border-emerald-600 p-3 w-fit rounded-2xl hover:border-emerald-500 hover:bg-emerald-900"
               >
                 PHOTOS
-              </a>
+              </Link>
             </p>
           </div>
         </div>
