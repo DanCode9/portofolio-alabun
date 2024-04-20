@@ -43,7 +43,7 @@ const HeroPage = () => {
           </p>
           <a
             href="/assets/CV.pdf"
-            download="CV.pdf"
+            target="_blank"
             className="border-2 border-emerald-600 p-3 w-fit rounded-2xl hover:border-emerald-500 hover:bg-emerald-900"
           >
             Télécharger mon CV

@@ -26,6 +26,11 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="hover:text-emerald-300">
+          <Link to={"/missions"} onClick={closeMenu}>
+            Missions
+          </Link>
+        </li>
+        <li className="hover:text-emerald-300">
           <Link to={"/projets"} onClick={closeMenu}>
             Projets réalisés
           </Link>
@@ -65,6 +70,11 @@ const Navbar = () => {
           <li className="text-sm p-4 border-b border-gray-400 text-white">
             <Link to={"/"} onClick={closeMenu}>
               Page Accueil
+            </Link>
+          </li>
+          <li className="text-sm p-4 border-b border-gray-400 text-white">
+            <Link to={"/missions"} onClick={closeMenu}>
+              Missions
             </Link>
           </li>
           <li className="text-sm p-4 border-b border-gray-400 text-white">
